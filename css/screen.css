@@ -1,0 +1,188 @@
+@media all and ( max-height:899px ){
+    #title h1 { font-size: 3.5em;}
+    .sns { margin-top: 70px; }
+    .sns img { width: 50%; }
+}
+
+@media all and ( max-height:799px ){
+    #title h1 { font-size: 3em;}
+    #home .bot figure img { width:40%; }
+}
+
+@media all and ( max-height:689px ){
+    #title h1 { font-size: 2.5em;}
+    #home .bot figure figcaption { display: none;}
+    #about .left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #about .cont { margin: 0; }
+}
+
+@media all and ( max-width:1399px ){
+    nav ul li a{ padding: 5px 10px;}
+    #about h2 { font-size: 1.3em; }
+    #about .introduce p { font-size: 1.3em; }
+    #about .education p { font-size:1.1em; }
+    #skills span { font-size:1.2em; }
+    section .modal-page { background-size: contain; }
+    .modal-text > table,
+    .modal-text > p { font-size: .8em; }
+    .modal-a-btn {
+        width: 250px;
+        height:65px;
+        font-size: 1.8em;
+
+    }
+    .contact h2 { font-size: 1.3em; }
+    .contact p { font-size: 1.1em;}
+    #contact .right ul li { font-size: 8.5em; }
+}
+
+@media all and ( max-width:1199px ){
+    /* 타블렛 가로 */
+    nav ul li { font-size: 1.1em; }
+    #home .bot figure img { width:60%; }
+    #home .bot figure figcaption { font-size: .8em; margin-top: 10%; }
+    #rotate span { font-size: 10em; }
+    #about .right figure img { width: 60%; bottom:4%; }
+    #circular-text { top:-8%; right:-13%; }
+    #contact .right .top { padding: 6%; }
+    #contact .right ul li { font-size: 8em; }
+}
+
+@media all and ( max-width:999px ){
+    nav ul li { font-size: 1em; }
+    nav ul li a{ padding: 2px 7px;}
+    #contact .right ul li { font-size: 7em; }
+    #contact .right .top { padding: 5%; }
+    #about .left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #about .cont { margin: 0; }
+    #about h2 { font-size: 1.2em; }
+    #about .introduce p { font-size: 1.2em; }
+    #about .education p { font-size:.9em; }
+    #skills span { font-size:1em; }
+    #contact h2 { font-size: 1.2em; }
+    #contact .text { font-size: 1.2em;}
+}
+
+@media all and ( max-width:899px ){
+    /* 모바일 가로, 타블렛 세로 */
+    #home .bot figure img { width:50%; line-height: 100%;}
+    #home .bot figure figcaption { display: none; }
+    #rotate span { font-size: 10em; }
+    #about .introduce p { font-size: 1.1em; }
+    #about .right figure img { width: 60%; }
+    #circular-text {
+        top:-10%;
+        right:-20%;
+        transform:scale(.5);
+        -webkit-transform:scale(.5);
+        -moz-transform:scale(.5);
+        -ms-transform:scale(.5);
+        -o-transform:scale(.5);
+    }
+    #contact .right ul li { font-size: 5em; }
+    #contact .right .top { padding: 4%; }
+    .section-pc { display: none; }
+    .section-mobile { display: block; }
+}
+
+@media all and ( max-width:599px ){
+    /* 모바일 세로 */
+    nav {
+        height: 4vh; width: 100%;
+        left: 0; top: 0;
+        background-color: #fff;
+        z-index: 5;
+    }
+    nav ul li {
+        transform: none;
+        margin:0;
+        font-size: 1.2em;
+    }
+    nav ul li a{ margin-top:1px; padding: 1px 7px;}
+    #wrap { width: 100%; margin: 0; }
+    section {
+        padding-top: 4vh;
+        background-position:center 4vh;
+    }
+    #circular-text { top:-9%; right:-16%; }
+    #title { top: 30%; }
+    .sns { margin-top: 50px; }
+    #about .right figure img { width: 90%; }
+    #contact .right ul li { font-size: 4em; }
+    section .gomodal { display: none; }
+    .modal { top:45%; height:65%; display: block; background: none;}
+    .page {
+        width: 100%; height: 100%;
+        top:0; left: 0;
+        transform:none; -webkit-transform:none; -moz-transform:none; -ms-transform:none; -o-transform:none;
+    }
+    .modaltext h2 { height:30%; font-size: 2.65em; }
+    .modaltext h3 { margin: 150px 0; height: 50%; }
+    .modaltext .modalinfo h4 { border-left:2px solid #333; padding-left: 20px;}
+    section .modal .page .bot { display: none; }     
+    section .modal .page .exit { display: none; }
+    .modaltext .modalinfo {
+        position: absolute;
+        bottom:65%; left:10%;
+        height:10%;
+        font-size: 1.2em;
+    }
+
+}
+
+@media all and ( max-width:480px ){
+    #circular-text { top:-9%; right:-35%; }
+    #title { top: 35%; }
+    #title h1 { font-size: 3.1em; }
+    #rotate span { font-size: 8em; }
+    #about h2 { font-size: 1em; }
+    #about .introduce p { font-size: 1em; }
+    #about .education p { font-size:.8em; }
+    #skills span { font-size:.8em; }
+    .contact h2 { font-size: 1em; }
+    .contact p { font-size: .8em;}
+    #contact .text { font-size: 1em;}
+    #contact .right ul li { font-size: 3.5em; }
+}
+
+@media all and ( max-width:414px ){
+    nav ul li { font-size: .8em; font-weight: 600; }
+    #circular-text {
+        top:57%;
+        right:-63%;
+        transform:scale(.35);
+        -webkit-transform:scale(.35);
+        -moz-transform:scale(.35);
+        -ms-transform:scale(.35);
+        -o-transform:scale(.35);
+        animation: rotateText 15s linear infinite;
+        -webkit-animation: rotateText 15s linear infinite;
+    }
+    @keyframes rotateText{
+        form { transform: scale(.35) rotate(0deg); -webkit-transform: scale(.35) rotate(0deg); -moz-transform: scale(.35) rotate(0deg); -ms-transform: scale(.35) rotate(0deg); -o-transform: scale(.35) rotate(0deg); }
+        to { transform: scale(.35) rotate(360deg); -webkit-transform: scale(.35) rotate(360deg); -moz-transform: scale(.35) rotate(360deg); -ms-transform: scale(.35) rotate(360deg); -o-transform: scale(.35) rotate(360deg); }
+    }
+    #title { top: 1%; }
+    #title h1 { font-size: 2.37em; }
+    #rotate span { font-size: 5.3em; }
+    #home .top { height: 90%; }
+    #home .top a { font-size: .8em; }
+    #home .bot { height: 10%; }
+    #about h2 { font-size: .9em; }
+    #about .contact h2 { margin-top: 0px; }
+    #about .introduce p { font-size: .9em; }
+    #about .education p { font-size:.75em; }
+    #skills span { font-size:.7em; padding: 4px 8px 6px; margin:0 2px 1px 0; }
+    .contact h2 { font-size: .9em; }
+    .contact p { font-size: .8em;}
+    #contact .text { font-size: 1em;}
+    #contact .right ul li { font-size: 2.5em; }
+}
